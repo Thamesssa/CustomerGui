@@ -67,6 +67,7 @@ void CustInput::setupGUI()
    QLabel *lblCode(new QLabel("Code"));
    QLabel *lblBalance(new QLabel("Balance"));
 
+   //setup Layouts
    Layout->addWidget(lblTitle);
    Layout->addWidget(cmbTitle);
    Layout->addWidget(lblName);
