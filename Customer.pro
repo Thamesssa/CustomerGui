@@ -12,13 +12,15 @@ CONFIG += c++17
 SOURCES += \
     CustView.cpp \
     custinput.cpp \
+    customerlist.cpp \
     main.cpp \
     customer.cpp
 
 HEADERS += \
     CustView.h \
     custinput.h \
-    customer.h
+    customer.h \
+    customerlist.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

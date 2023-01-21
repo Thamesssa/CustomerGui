@@ -44,6 +44,7 @@ void CustView::setUp()
  layout->addWidget(textEdit);
  layout->addWidget(btnAddCust);
  layout->addWidget(btnQuit);
+
  textEdit->isReadOnly();
 
 }

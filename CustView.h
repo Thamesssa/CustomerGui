@@ -1,6 +1,7 @@
 #ifndef CUSTVIEW_H
 #define CUSTVIEW_H
 #include <QWidget>
+#include <customerlist.h>
 class QTextEdit;
 class QPushButton;
 
@@ -18,6 +19,7 @@ private slots:
 
 private:
      void setUp();
+    CustomerList list;
     QTextEdit *textEdit;
     QPushButton * btnAddCust;
     QPushButton *btnQuit;
