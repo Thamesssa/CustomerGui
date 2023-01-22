@@ -14,6 +14,8 @@ SOURCES += \
     custinput.cpp \
     customerlist.cpp \
     customerlistc.cpp \
+    filereader.cpp \
+    filewriter.cpp \
     main.cpp \
     customer.cpp
 
@@ -22,7 +24,9 @@ HEADERS += \
     custinput.h \
     customer.h \
     customerlist.h \
-    customerlistc.h
+    customerlistc.h \
+    filereader.h \
+    filewriter.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
